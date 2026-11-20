@@ -1,0 +1,11 @@
+# Pothole Detection Dataset Configuration
+# Update 'path' to match your actual dataset location
+
+path: ../data/raw          # Root path to dataset (relative to where train.py runs)
+train: train/images        # Train images (relative to 'path')
+val: valid/images            # Validation images (relative to 'path')
+test: test/images          # Test images (relative to 'path')
+
+# Class information
+nc: 1                      # Number of classes
+names: ['pothole']         # Class names
